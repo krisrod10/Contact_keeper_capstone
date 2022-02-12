@@ -10,6 +10,7 @@ const User = require('../models/User');
 // @route     POST api/users
 // @desc      Regiter a user
 // @access    Public
+// test another push
 router.post(
   '/',
   check('name', 'Please add name').not().isEmpty(),
